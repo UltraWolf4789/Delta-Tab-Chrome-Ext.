@@ -1,0 +1,96 @@
+            body {
+                background: Black;
+            }
+
+            p {
+                color: black;
+            }
+
+            h1 {
+                font-weight: bold;
+                font-size: 100px;
+                text-align: center;
+                font-family: 'Bauhaus 93';
+                color: cyan;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                height: 28vh;
+            }
+
+            .navbtn {
+                font-family: "Bauhaus 93";
+                color: white;
+                background-color: cyan;
+                border-radius: 14px;
+                height: 72px;
+                width: 144px;
+                font-size: 20px;
+             }
+
+
+            .searchDelta {
+                background-color: black;
+                border-radius: 8px;
+                border-color: cyan;
+                border-width: 8px;
+                width: 800px;
+                color: cyan;
+                font-family: 'Bauhaus 93';
+                padding: 12px;
+                font-size: 28px;
+            }
+
+            .GOsearchDelta {
+                font-family: 'Bauhaus 93';
+                margin: 12px;
+                width: 70px;
+                height: 70px;
+                border-radius: 8px;
+                font-size: 28px;
+                color: black;
+                background-color: cyan;
+            }
+
+
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                height: 28vh;
+
+
+            }
+
+            ::placeholder {
+                color:gray;
+                font-family: 'Bauhaus 93';
+            }
+
+
+             .Theme {
+                color:cyan;
+                font-family: 'Bauhaus 93';
+                border-radius: 4px;
+                background-color: black;
+                width: 200px;
+                height: 40px;
+                font-size: 28px;
+                border-color: cyan;
+             }
+
+             .urlbar {
+               background-color: black;
+               border-radius: 2px;
+               color: cyan;
+               width: 100%;
+               border-color: cyan;
+               border-width: 4px;
+               font-family: 'Bauhaus 93';
+             }
+
+            #browserdisplay {
+             width: 100%;
+            height: calc(100vh - 30px);
+            border: none;
+            }
