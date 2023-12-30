@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Delta Tab</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/x-icon" href="/downloads/favicon.ico/favicon-32x32">
+    </head>
+
+    <body>
+        <div>
+            <button class="navbtn" onclick="alert('STill Developing to bring you absolute freedom')">Features</button>
+        </div>
+        <h1>Delta</h1>
+        <div class="container">
+            <input class="searchDelta" type="text" id="searchDelta" name="searchDelta" placeholder="Search Google">
+            <button class="GOsearchDelta" onclick="searchGoogle()">GO</button>
+        </div>
+        <script>
+            function searchGoogle() {
+                var searchDelta = document.getElementById("searchDelta").value;
+                var googleURL = "https://www.google.com/search?q=" + encodeURIComponent(searchDelta);
+                window.open(googleURL, "_blank");
+            }
+        </script>
+
+
+
+    </body>
+
+</html>
